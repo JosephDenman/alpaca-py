@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "alpaca-py"
 # placeholder for poetry-dynamic-versioning
-version = "0.0.0"
+version = "0.40.1+txse"
 description = "The Official Python SDK for Alpaca APIs"
 authors = [
     "Rahul Chowdhury <rahul.chowdhury@alpaca.markets>",
@@ -43,7 +43,7 @@ requires = ["poetry-core>=1.4.2", "poetry-dynamic-versioning>=1.0.0,<2.0.0"]
 build-backend = "poetry_dynamic_versioning.backend"
 
 [tool.poetry-dynamic-versioning]
-enable=true
+enable=false
 
 [tool.poetry-dynamic-versioning.substitution]
 folders = [
